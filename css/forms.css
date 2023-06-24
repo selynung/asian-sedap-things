@@ -1,0 +1,71 @@
+header .display-3 {
+  text-align: center;
+  padding-top: 0.5em;
+  margin-bottom: 0.5rem;
+  font-family: "Montserrat", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #5a5a5a;
+}
+
+header ol {
+	display: flex;
+	justify-content: center;
+}
+
+
+header .btn {
+	margin-left: 5em;
+}
+
+header .breadcrumb {
+	background-color: #e6f7ff;
+	padding-top: 10em;
+}
+
+main {
+	padding-top: 14em;
+}
+
+h2 {
+	text-align: right;
+	text-shadow: 2px 2px;
+}
+
+img+blockquote {
+	margin-top: 2em;
+}
+
+.col-md-12.jumbotron {
+	background-color: #ffe6f2;
+}
+
+.col-md-2 .jumbotron {
+	background-color: #e6ffcc;
+}
+
+.breadcrumb-item a {
+	color: black;
+}
+
+footer .breadcrumb {
+	background-color: #e6f7ff;
+}
+
+footer .jumbotron {
+	background-color: #e6f7ff;
+	padding: 0.5em;
+}
+
+.breadcrumb-item a:hover, a:hover {
+	font-weight: bold;
+	color: blue;
+}
+
+.col-md-10 h2+img {
+	width: 100%;
+}
+
+.col-md-2 img {
+	width: 70%;
+}

@@ -1,0 +1,108 @@
+header .display-3 {
+  text-align: center;
+  padding-top: 0.5em;
+  margin-bottom: 0.5rem;
+  font-family: "Montserrat", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #5a5a5a;
+}
+
+header ol {
+	display: flex;
+	justify-content: center;
+}
+
+
+header .btn {
+	color: black;
+	margin-left: 5em;
+}
+
+header .jumbotron {
+	background-color: #ffccee;
+	padding: 0.5em;
+	border-color: pink;
+}
+
+main .jumbotron {
+	background-color: #ffccee;
+	border-color: pink;
+}
+
+footer .jumbotron {
+	background-color: #ffcccc;
+	padding: 0.5em;
+}
+
+body {
+	background-color: #ffe6f7;
+}
+
+.breadcrumb {
+	background-color: #ffcccc;
+}
+
+.col-md-4 .breadcrumb {
+	padding-bottom: 4.5em;
+}
+
+.list-group-item {
+	background-color: #ffccee;
+}
+
+.list-group-item:hover {
+	background-color: pink;
+}
+
+a:hover {
+	font-size: 1.25em;
+	font-weight: bold;
+}
+
+header .breadcrumb {
+	padding-top: 10em;
+}
+
+main {
+	padding-top: 14em;
+}
+
+
+:target::before {
+  content: "";
+  display: block;
+  height: 220px; 
+  margin: -60px 0 0; 
+}
+
+img {
+	border-radius: 1em;
+}
+
+figcaption {
+	overflow-x: auto;
+}
+
+#recipe {
+	margin-top: 1.5em;
+	text-shadow: 2px 2px;
+}
+
+img:hover {
+	transform: scale(1.1);
+	transition: all 1s ease-in 0.01s;
+}
+
+.col-md-2 img {
+	width: 100%;
+}
+
+.breadcrumb-item a {
+	color: black;
+}
+
+.breadcrumb-item a:hover {
+	font-weight: bold;
+	color: purple;
+}
